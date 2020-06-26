@@ -4,7 +4,7 @@ Traditional pool testing methods are dilutive simple pools which are easy to adm
 
 1. Design combinatorial pooling and pool size algorithms (in Python) for a population of 300,000 samples and testing capacity of 12,000 tests. Assume a prevalence of 2%, 4%, 6%, 8% and 10%.
 
-2. Compare the amount of savings (assume single test cost USD 100) of overlapping pool versus simple pool versus single test. Which would you recommend?
+2. Compare the amount of savings (assume single test cost USD 100) of overlapping pool versus simple pool versus single test. 
 
 # Simple Pooling
 Simple pooling involves group tests conducted on a "row" of samples(as illustrated in the diagram below). A positive test result indicates that some individual in the corresponding row is infected. Only the specimens sharing a pool with an infected specimen will need to be retested (Verdun et al, 2020).
