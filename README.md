@@ -36,13 +36,13 @@ Our results revealed that:
 - **Overlapping for lower prevalence** - Across most of our prevalence levels, overlapping pools results in higher cost savings versus simple pools. This difference in savings starts to taper as prevalence levels rise. At a prevalence level of 10%, it becomes more cost-efficient to use a simple pooling method.
 
 
-- **Lack of test kits** - In our comparison, we tested a range of pool sizes as demonstrated by a paper published by UCLA(C.Mentus et al., 2020). Even in our most cost-efficient simulation -- an overlapping pool test in a population with 0.02 prevalence -- we used 63556 to identify the positives within the population. This is more than five times our testing capacity of 12000. 
+- **Lack of test kits** - In our comparison, we tested a range of pool sizes as demonstrated by a paper published by UCLA(C.Mentus et al., 2020). Even in our most cost-efficient simulation -- an overlapping pool test in a population with 0.02 prevalence -- we used 63556 to identify the positives within the population. This is more than five times our testing capacity of 12000. Additional simulations reveal that we can only work within our testing capacity if the prevalence goes below 0.1%.
 
 
 - **Losses** - In four of our simulations, our methods actually result in losses. These were mainly situations with higher prevalences (0.08, 0.1) and a big pool size(64) -- further driving home the point that pooling methods becomes less cost efficient in populations with higher prevalence. We should also note that it is important to find a method to optimise pool sizes to raise cost-efficiency.
 
 # Conclusion
-- **Overlapping pools recommended for prevalence < 0.1** - Our simulations show that pooling methods serve to be effective on populations with low prevalence only. For figures under 0.1, we'd recommend the use of overlapping pools. For anything higher, simple pools prove to be more cost-efficient. 
+- **Overlapping pools recommended for prevalence < 10%** - Our simulations show that pooling methods serve to be effective on populations with low prevalence only. For figures under 10%, we'd recommend the use of overlapping pools. For anything higher, simple pools prove to be more cost-efficient. 
 
 
 - **Mixed methods** - As pooling methods can actually result in massive savings, it might be worthwhile to employ mixed methods by first splitting the population into symptomatic and asymptomatic. Taking out symptomatic cases theorectically lowers the prevalence in the latter group (C.Mentus et al. , 2020). We can then test symptomatic cases with single tests and the rest with a pooling method. 
